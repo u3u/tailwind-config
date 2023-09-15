@@ -1,0 +1,128 @@
+{
+  "name": "@u3u/tailwind-config",
+  "version": "0.0.0",
+  "description": "⚡ The most perfect TailwindCSS presets",
+  "keywords": [
+    "tailwindcss config",
+    "tailwindcss presets"
+  ],
+  "repository": {
+    "url": "https://github.com/u3u/@u3u/tailwind-config.git"
+  },
+  "license": "MIT",
+  "author": "u3u <qwq@qwq.cat> (https://github.com/u3u)",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./*": {
+      "import": {
+        "types": "./dist/*.d.mts",
+        "default": "./dist/*.mjs"
+      },
+      "require": {
+        "types": "./dist/*.d.ts",
+        "default": "./dist/*.js"
+      }
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && fix-tsup-cjs",
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "prepare": "pnpm build",
+    "test": "vitest --ui --coverage"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged --concurrent false"
+  },
+  "lint-staged": {
+    "*.{js,cjs,mjs,jsx,ts,tsx,md}": [
+      "eslint --fix"
+    ],
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/colors": "^7.0.0",
+    "@egoist/tailwindcss-icons": "^1.1.0",
+    "@iconify/tools": "^3.0.5",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "daisyui": "^3.7.7",
+    "remeda": "^1.27.0",
+    "tailwindcss-animated": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nextui-org/react": "^2.1.13",
+    "@total-typescript/ts-reset": "^0.5.1",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.17.18",
+    "@u3u/eslint-config": "^2.12.0",
+    "@u3u/prettier-config": "^4.1.0",
+    "@u3u/tailwind-config": "link:",
+    "@vitest/coverage-v8": "^0.34.5",
+    "@vitest/ui": "^0.34.5",
+    "bumpp": "^9.2.0",
+    "dedent": "^1.5.1",
+    "eslint": "^8.49.0",
+    "execa": "^8.0.1",
+    "fix-tsup-cjs": "^1.2.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "simple-git-hooks": "^2.9.0",
+    "tailwindcss": "^3.3.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.5"
+  },
+  "peerDependencies": {
+    "@iconify/json": ">=2.2.0",
+    "@nextui-org/react": ">=2.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@iconify/json": {
+      "optional": true
+    },
+    "@nextui-org/react": {
+      "optional": true
+    }
+  },
+  "packageManager": "pnpm@8.7.6",
+  "publishConfig": {
+    "access": "public"
+  },
+  "pnpm": {
+    "updateConfig": {
+      "ignoreDependencies": [
+        "@types/node"
+      ]
+    },
+    "patchedDependencies": {
+      "@ant-design/colors@7.0.0": "patches/@ant-design__colors@7.0.0.patch"
+    }
+  }
+}
