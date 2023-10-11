@@ -1,8 +1,13 @@
 import { generate } from '@ant-design/colors';
 import { mapKeys } from 'remeda';
 
-export const generateColors = (...args: Parameters<typeof generate>) => {
-  return toColors(generate(...args));
+export interface GenerateColorsOptions {
+  backgroundColor?: string;
+  theme?: 'dark' | 'default';
+}
+
+export const generateColors = (color: string, options?: GenerateColorsOptions) => {
+  return toColors(generate(color, options));
 };
 
 export const toColors = (colors: string[]) => {

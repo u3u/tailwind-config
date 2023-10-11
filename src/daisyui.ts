@@ -6,6 +6,7 @@ const { alipay, primary, tomato, wechat } = colors;
 
 export const daisyui = {
   base: false,
+  
   prefix: 'daisy-',
 
   themes: [
