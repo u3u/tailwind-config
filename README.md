@@ -18,3 +18,103 @@ module.exports = {
   presets: [require('@u3u/tailwind-config')],
 };
 ```
+
+### With [DaisyUI](https://daisyui.com/)
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  presets: [require('@u3u/tailwind-config/daisyui')],
+};
+```
+
+### With [NextUI](https://nextui.org)
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  presets: [require('@u3u/tailwind-config/nextui')],
+};
+```
+
+### With [DaisyUI](https://daisyui.com/) and [NextUI](https://nextui.org/)
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  presets: [require('@u3u/tailwind-config/ui')],
+};
+```
+
+### With [Iconify](https://iconify.design/)
+
+```js
+/** @type {import('tailwindcss').Config} */
+const { getIconCollections, iconsPlugin, withIcons } = require('@u3u/tailwind-config/icons');
+const customIcons = require('./custom-icons.json'); // See Generate Custom Icons
+
+module.exports = {
+  plugins: [
+    // common icon sets
+    withIcons(),
+
+    // custom icon sets
+    iconsPlugin({
+      collections: {
+        // custom additional icon sets
+        custom: customIcons,
+
+        // custom common icon sets
+        // https://icon-sets.iconify.design/
+        ...getIconCollections(['radix-icons']),
+      },
+    }),
+  ],
+
+  presets: [require('@u3u/tailwind-config')],
+};
+```
+
+#### Generate Custom Icons
+
+Add `generate-icons.mjs` file
+
+```js
+import { generateIconifyIconset, importDirectory } from '@u3u/tailwind-config/generate-iconify-iconset';
+
+const iconSets = [
+  // Your `*.svg` directory path
+  await importDirectory('./custom-svgs', {
+    includeSubDirs: true,
+    prefix: 'custom',
+  }),
+];
+
+await generateIconifyIconset(iconSets);
+```
+
+Then run `node generate-icons.mjs` to generate custom iconset json files.
+
+### Generate Theme colors
+
+> **Note**
+>
+> Set `process.env.THEME` env variable to change `primary` color  
+> Example: `THEME="#1890ff" astro dev`
+
+```js
+/** @type {import('tailwindcss').Config} */
+const { generateColors } = require('@u3u/tailwind-config/generate-colors');
+
+module.exports = {
+  presets: [require('@u3u/tailwind-config')],
+
+  theme: {
+    extend: {
+      colors: {
+        custom: generateColors('#1890ff'),
+      },
+    },
+  },
+};
+```
