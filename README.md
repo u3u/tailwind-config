@@ -118,3 +118,16 @@ module.exports = {
   },
 };
 ```
+
+### With Base Config (no plugins)
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  presets: [require('@u3u/tailwind-config/base')],
+};
+```
+
+## License
+
+[MIT](./LICENSE) License © 2023 [u3u](https://github.com/u3u)
