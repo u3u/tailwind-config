@@ -2,6 +2,21 @@
 
 [![npm version](https://badgen.net/npm/v/@u3u/tailwind-config)](https://npm.im/@u3u/tailwind-config) [![npm downloads](https://badgen.net/npm/dm/@u3u/tailwind-config)](https://npm.im/@u3u/tailwind-config)
 
+## Features
+
+- Common utilities
+- Common variants
+- Common animation
+- Common theme colors
+- Multiple preset combinations
+- [Tailwind Animated](https://www.tailwindcss-animated.com/) out of the box
+- [Iconify](https://iconify.design/) icon sets out of the box
+- [DaisyUI](https://daisyui.com/) out of the box
+- [NextUI](https://nextui.org) out of the box
+- [Generate theme colors](#generate-theme-colors)
+- [Generate custom iconify icon sets](#generate-custom-icons)
+- [Merge presets](#merge-presets)
+
 ## Install
 
 ```sh
