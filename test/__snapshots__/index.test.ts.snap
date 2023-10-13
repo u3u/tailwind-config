@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match snapshot 1`] = `
+"/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+[type='file'] {
+  display: none;
+}
+
+[type='search'] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(26 102 254 / var(--tw-text-opacity));
+}
+
+a:active {
+  --tw-text-opacity: 1 !important;
+  color: rgb(11 73 217 / var(--tw-text-opacity)) !important;
+}
+
+a[type='button'] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+a,
+button {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+body {
+  font-feature-settings: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  color: rgb(0 0 0 / 0.8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+input::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(150 150 150 / var(--tw-text-opacity));
+}
+
+input::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(150 150 150 / var(--tw-text-opacity));
+}
+
+input:-internal-autofill-selected {
+  --tw-shadow: 0 0 0px 50px #fff inset;
+  --tw-shadow-colored: inset 0 0 0px 50px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}"
+`;

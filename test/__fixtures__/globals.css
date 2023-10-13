@@ -1,0 +1,47 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+[type='file'] {
+  @apply hidden;
+}
+
+[type='search'] {
+  @apply appearance-none;
+}
+
+a {
+  @apply cursor-pointer hover:text-primary-500 active:!text-primary-600;
+}
+
+a[type='button'] {
+  @apply appearance-none;
+}
+
+a,
+button {
+  @apply transition;
+  @apply duration-300;
+}
+
+body {
+  font-feature-settings: normal;
+}
+
+html {
+  @apply scroll-smooth text-black/80 antialiased;
+}
+
+html,
+body,
+#__next {
+  @apply h-full;
+}
+
+input {
+  @apply placeholder:text-darkgray;
+}
+
+input:-internal-autofill-selected {
+  @apply shadow-[0_0_0px_50px_#fff_inset];
+}
