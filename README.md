@@ -49,10 +49,10 @@ module.exports = {
 ### With [Iconify](https://iconify.design/)
 
 ```js
-/** @type {import('tailwindcss').Config} */
 const { getIconCollections, iconsPlugin, withIcons } = require('@u3u/tailwind-config/icons');
 const customIcons = require('./custom-icons.json'); // See Generate Custom Icons
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   plugins: [
     // common icon sets
@@ -103,9 +103,9 @@ Then run `node generate-icons.mjs` to generate custom iconset json files.
 > Example: `THEME="#1890ff" astro dev`
 
 ```js
-/** @type {import('tailwindcss').Config} */
 const { generateColors } = require('@u3u/tailwind-config/generate-colors');
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   presets: [require('@u3u/tailwind-config')],
 
