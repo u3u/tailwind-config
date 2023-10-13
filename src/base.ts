@@ -9,6 +9,7 @@ export default defineConfig({
       animation: {
         'button-pulse': 'button-pulse 2s infinite 1s cubic-bezier(0.25, 0, 0, 1)',
         'gradient-text': 'gradient-text 3s ease-in-out infinite alternate',
+        'heart-beat': 'heart-beat 1.3s .3s ease-in-out infinite',
         shine: 'shine 0.85s 150ms cubic-bezier(0.65, 0, 0.35, 1)',
         skeleton: 'skeleton 1.2s ease-in-out infinite',
         'skeleton-loading': 'skeleton-loading 8s ease-in-out infinite',
@@ -83,6 +84,13 @@ export default defineConfig({
           to: {
             backgroundPosition: '100%',
           },
+        },
+
+        'heart-beat': {
+          '14%': { transform: 'scale3d(1.3, 1.3, 1.3)' },
+          '28%': { transform: 'scale3d(1, 1, 1)' },
+          '42%': { transform: 'scale3d(1.3, 1.3, 1.3)' },
+          '70%': { transform: 'scale3d(1, 1, 1)' },
         },
 
         shine: {
