@@ -128,6 +128,23 @@ module.exports = {
 };
 ```
 
+### Merge Presets
+
+```js
+const { mergePresets } = require('@u3u/tailwind-config/merge-preset');
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  presets: [
+    mergePresets([
+      //
+      require('@u3u/tailwind-config'),
+      require('@u3u/tailwind-config/daisyui'),
+    ]),
+  ],
+};
+```
+
 ## License
 
 [MIT](./LICENSE) License © 2023 [u3u](https://github.com/u3u)
