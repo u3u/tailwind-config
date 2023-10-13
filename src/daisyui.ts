@@ -1,12 +1,14 @@
+import daisyuiPlugin from 'daisyui';
 import themes from 'daisyui/src/theming/themes';
 import base from './base';
+import { defineConfig } from './define-config';
 
 const { colors } = base.theme.extend;
 const { alipay, primary, tomato, wechat } = colors;
 
 export const daisyui = {
   base: false,
-  
+
   prefix: 'daisy-',
 
   themes: [
@@ -44,3 +46,11 @@ export const daisyui = {
     },
   ],
 };
+
+export default defineConfig({
+  content: [],
+
+  daisyui,
+
+  plugins: [daisyuiPlugin.handler],
+});
