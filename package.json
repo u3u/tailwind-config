@@ -71,7 +71,7 @@
     "@egoist/tailwindcss-icons": "^1.4.0",
     "@iconify/tools": "^3.0.5",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "daisyui": "^3.9.3",
+    "daisyui": "^3.9.4",
     "deepmerge": "^4.3.1",
     "remeda": "^1.28.0",
     "tailwindcss-animated": "^1.0.1"
@@ -112,7 +112,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "pnpm@8.10.0",
   "publishConfig": {
     "access": "public"
   },
