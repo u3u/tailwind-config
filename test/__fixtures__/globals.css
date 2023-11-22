@@ -45,3 +45,7 @@ input {
 input:-internal-autofill-selected {
   @apply shadow-[0_0_0px_50px_#fff_inset];
 }
+
+.btn {
+  @apply daisy-btn daisy-btn-primary;
+}

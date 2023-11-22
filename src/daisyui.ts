@@ -16,7 +16,7 @@ export const daisyui = {
   themes: [
     {
       light: {
-        ...themes['[data-theme=light]'],
+        ...themes.light,
         // '--animation-btn': '0.25s', // duration of animation when you click on button
         // '--animation-input': '0.2s', // duration of animation for inputs like checkbox, toggle, radio, etc
         // '--border-btn': '0', // border width of buttons
