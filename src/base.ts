@@ -44,7 +44,7 @@ export default defineConfig({
         darkgray: generateColors('#969696'),
         dimgray: generateColors('#666666'),
         elm: generateColors('#20a0ff'),
-        primary: generateColors(process.env.THEME || '#1a66fe'),
+        primary: generateColors(process?.env?.THEME || '#1a66fe'),
         snow: generateColors('#eeeeee'),
         stripe: generateColors('#6875e2'),
         tomato: generateColors('#ff4949'),
@@ -54,7 +54,11 @@ export default defineConfig({
 
       container: {
         center: true,
-        padding: '1rem',
+
+        padding: {
+          DEFAULT: '1rem',
+          md: '2rem',
+        },
       },
 
       dropShadow: {
