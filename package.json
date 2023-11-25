@@ -71,7 +71,7 @@
     "@egoist/tailwindcss-icons": "^1.4.0",
     "@iconify/tools": "^3.0.6",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "daisyui": "^4.4.6",
+    "daisyui": "^4.4.7",
     "deepmerge": "^4.3.1",
     "remeda": "^1.29.0",
     "tailwindcss-animated": "^1.0.1"
