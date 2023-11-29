@@ -69,9 +69,9 @@
   "dependencies": {
     "@ant-design/colors": "^7.0.0",
     "@egoist/tailwindcss-icons": "^1.4.0",
-    "@iconify/tools": "^3.0.6",
+    "@iconify/tools": "^3.0.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "daisyui": "^4.4.10",
+    "daisyui": "^4.4.14",
     "deepmerge": "^4.3.1",
     "remeda": "^1.29.0",
     "tailwindcss-animated": "^1.0.1"

@@ -20,14 +20,14 @@ dependencies:
     specifier: '>=2.2.0'
     version: 2.2.118
   '@iconify/tools':
-    specifier: ^3.0.6
-    version: 3.0.6
+    specifier: ^3.0.7
+    version: 3.0.7
   '@tailwindcss/aspect-ratio':
     specifier: ^0.4.2
     version: 0.4.2(tailwindcss@3.3.5)
   daisyui:
-    specifier: ^4.4.10
-    version: 4.4.10(postcss@8.4.31)
+    specifier: ^4.4.14
+    version: 4.4.14(postcss@8.4.31)
   deepmerge:
     specifier: ^4.3.1
     version: 4.3.1
@@ -902,8 +902,8 @@ packages:
       pathe: 1.1.1
     dev: false
 
-  /@iconify/tools@3.0.6:
-    resolution: {integrity: sha512-RIYgZ7YOjcogLxtvdmshcTc80f08yi6FxFGk7ahE5NUOx7hp8mjFJPUSxX6pjhZDDXUvVV4ao9EtdRFLgK+4ow==}
+  /@iconify/tools@3.0.7:
+    resolution: {integrity: sha512-DxfhFLMnooS34dHelpGUnnYrxLZHs0czC1CgrBhAbuL8ddVzBb2VEQm8kh9qGh7A34qeXAB5iSHH3A72rAaFrg==}
     dependencies:
       '@iconify/types': 2.0.0
       '@iconify/utils': 2.1.11
@@ -913,7 +913,7 @@ packages:
       extract-zip: 2.0.1
       local-pkg: 0.4.3
       pathe: 1.1.1
-      svgo: 3.0.2
+      svgo: 3.0.3
       tar: 6.2.0
     transitivePeerDependencies:
       - supports-color
@@ -4700,8 +4700,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: false
 
-  /daisyui@4.4.10(postcss@8.4.31):
-    resolution: {integrity: sha512-NGDsOLtCQ9UzfeOUlKn1lwneQte4UoINmAaDBcrMAbZviu/jWm7PSR9DqH3eE/AY/TpkImdAPVK+kGsZlpEFkQ==}
+  /daisyui@4.4.14(postcss@8.4.31):
+    resolution: {integrity: sha512-1g37QzzDFM0QLQe+qRBswkGKyaGijk84t01UMg1ytkFhQxru3zeMh5nWcpC9KnqzKgnITkpSebpGqq4gP8zRrg==}
     engines: {node: '>=16.9.0'}
     dependencies:
       css-selector-tokenizer: 0.8.0
@@ -8463,8 +8463,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svgo@3.0.2:
-    resolution: {integrity: sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ==}
+  /svgo@3.0.3:
+    resolution: {integrity: sha512-X4UZvLhOglD5Xrp834HzGHf8RKUW0Ahigg/08yRO1no9t2NxffOkMiQ0WmaMIbaGlVTlSst2zWANsdhz5ybXgA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
