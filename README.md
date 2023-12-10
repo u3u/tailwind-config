@@ -36,6 +36,8 @@ module.exports = {
 
 ### With [DaisyUI](https://daisyui.com/)
 
+`pnpm add daisyui -D`
+
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -44,6 +46,8 @@ module.exports = {
 ```
 
 ### With [NextUI](https://nextui.org)
+
+`pnpm add @nextui-org/react framer-motion`
 
 ```js
 /** @type {import('tailwindcss').Config} */
@@ -114,7 +118,7 @@ Then run `node generate-icons.mjs` to generate custom iconset json files.
 
 > **Note**
 >
-> Set `process.env.THEME` env variable to change `primary` color  
+> Set `process.env.THEME` env variable to change `primary` color, you can also set it in files like `.env`, `.env.local`.  
 > Example: `THEME="#1890ff" astro dev`
 
 ```js
