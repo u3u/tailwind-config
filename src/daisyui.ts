@@ -1,10 +1,11 @@
 import daisyuiPlugin from 'daisyui';
-import themes from 'daisyui/src/theming/themes';
 import base from './base';
 import { defineConfig } from './define-config';
+import { resolveDaisyuiThemes } from './resolve-daisyui-themes';
 
 const { colors } = base.theme.extend;
 const { alipay, primary, tomato, wechat } = colors;
+const themes = resolveDaisyuiThemes();
 
 export const daisyui = {
   base: false,
@@ -16,7 +17,8 @@ export const daisyui = {
   themes: [
     {
       light: {
-        ...themes.light,
+        // @ts-expect-error
+        ...(themes.light || themes['[data-theme=light]']),
         // '--animation-btn': '0.25s', // duration of animation when you click on button
         // '--animation-input': '0.2s', // duration of animation for inputs like checkbox, toggle, radio, etc
         // '--border-btn': '0', // border width of buttons
