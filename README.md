@@ -116,7 +116,7 @@ Then run `node generate-icons.mjs` to generate custom iconset json files.
 
 ### Generate Theme colors
 
-> **Note**
+> [!NOTE]
 >
 > Set `process.env.THEME` env variable to change `primary` color, you can also set it in files like `.env`, `.env.local`.  
 > Example: `THEME="#1890ff" astro dev`
