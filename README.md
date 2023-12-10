@@ -10,9 +10,9 @@
 - Common theme colors
 - Multiple preset combinations
 - [Tailwind Animated](https://www.tailwindcss-animated.com/) out of the box
-- [Iconify](https://iconify.design/) icon sets out of the box
-- [DaisyUI](https://daisyui.com/) out of the box
-- [NextUI](https://nextui.org) out of the box
+- [Iconify](#with-iconify) icon sets out of the box
+- [DaisyUI](#with-daisyui) out of the box
+- [NextUI](#with-nextui) out of the box
 - [Generate theme colors](#generate-theme-colors)
 - [Generate custom iconify icon sets](#generate-custom-icons)
 - [Merge presets](#merge-presets)
@@ -118,7 +118,8 @@ Then run `node generate-icons.mjs` to generate custom iconset json files.
 
 > [!NOTE]
 >
-> Set `process.env.THEME` env variable to change `primary` color, you can also set it in files like `.env`, `.env.local`.  
+> Set `process.env.THEME` env variable to change `primary` color  
+> you can also set it in files like `.env`, `.env.local`.  
 > Example: `THEME="#1890ff" astro dev`
 
 ```js
