@@ -14,8 +14,8 @@ dependencies:
     specifier: ^7.0.0
     version: 7.0.0(patch_hash=edfb6ezruh3rhyfdmifs2djsca)
   '@egoist/tailwindcss-icons':
-    specifier: ^1.4.0
-    version: 1.4.0(tailwindcss@3.3.6)
+    specifier: ^1.5.0
+    version: 1.5.0(tailwindcss@3.3.6)
   '@iconify/json':
     specifier: '>=2.2.0'
     version: 2.2.118
@@ -29,8 +29,8 @@ dependencies:
     specifier: ^4.3.1
     version: 4.3.1
   remeda:
-    specifier: ^1.29.0
-    version: 1.29.0
+    specifier: ^1.30.0
+    version: 1.30.0
   tailwindcss-animated:
     specifier: ^1.0.1
     version: 1.0.1(tailwindcss@3.3.6)
@@ -385,8 +385,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@egoist/tailwindcss-icons@1.4.0(tailwindcss@3.3.6):
-    resolution: {integrity: sha512-ERM7F8culmN3CADiqxnvVN4GnCDVaexbn+UG/w6NiRnI85JX/St9Ru1d+/1R80JHYBx4frdLQl9h01b0TwAZ+Q==}
+  /@egoist/tailwindcss-icons@1.5.0(tailwindcss@3.3.6):
+    resolution: {integrity: sha512-gmoBwCzahfKihFCKOndd/vQxinRKM/57JBgRyUVfYMh6t5tKu8T9SQDL2pXBTOBJF6QE4lOcyEDSk3pf0Vz0tA==}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
@@ -3767,7 +3767,7 @@ packages:
       prettier-plugin-sort-json: 3.1.0(prettier@3.1.1)
       prettier-plugin-sql: 0.17.1(prettier@3.1.1)
       prettier-plugin-tailwindcss: 0.5.9(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.12.2)(prettier-plugin-jsdoc@1.1.1)(prettier@3.1.1)
-      remeda: 1.29.0
+      remeda: 1.30.0
     transitivePeerDependencies:
       - '@prettier/plugin-pug'
       - '@shopify/prettier-plugin-liquid'
@@ -8345,8 +8345,8 @@ packages:
       unified: 11.0.4
     dev: true
 
-  /remeda@1.29.0:
-    resolution: {integrity: sha512-M3LQ14KtMdQ1879lj/kKji3zBk158s7Rwg963mEkTfQFMxnKrIEAMxJfo/+0sp/+uGgN/KMVU2MBA4LNjqf8YQ==}
+  /remeda@1.30.0:
+    resolution: {integrity: sha512-KzdPP0PCxSdafrJlaaNOvxGCout+qNBb9lefLLbWBC6YOpskVXbOA4hmSGnKHe5/MRHjIa8qhsZjvbE2eU/l2w==}
 
   /require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
