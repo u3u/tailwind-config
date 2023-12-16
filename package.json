@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "@ant-design/colors": "^7.0.0",
-    "@egoist/tailwindcss-icons": "^1.6.0",
+    "@egoist/tailwindcss-icons": "^1.7.1",
     "@iconify/tools": "^3.0.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "deepmerge": "^4.3.1",
@@ -88,7 +88,7 @@
     "bumpp": "^9.2.1",
     "daisyui": "^4.4.20",
     "dedent": "^1.5.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^15.2.0",
