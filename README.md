@@ -67,6 +67,8 @@ module.exports = {
 
 ### With [Iconify](https://iconify.design/)
 
+This plugin comes from [tailwindcss-icons](https://github.com/egoist/tailwindcss-icons), thanks to the great work of the author!
+
 ```js
 const { getIconCollections, iconsPlugin, withIcons } = require('@u3u/tailwind-config/icons');
 const customIcons = require('./custom-icons.json'); // See Generate Custom Icons
@@ -75,7 +77,7 @@ const customIcons = require('./custom-icons.json'); // See Generate Custom Icons
 module.exports = {
   plugins: [
     // common icon sets
-    withIcons(),
+    ...withIcons(),
 
     // custom icon sets
     iconsPlugin({
