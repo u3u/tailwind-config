@@ -50,3 +50,7 @@ input:-internal-autofill-selected {
   @apply @container;
   @apply @md:underline;
 }
+
+.test-typography {
+  @apply prose prose-sm md:prose-base;
+}

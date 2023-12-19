@@ -1,6 +1,7 @@
 import '@total-typescript/ts-reset';
 import aspectRatio from '@tailwindcss/aspect-ratio';
 import containerQueries from '@tailwindcss/container-queries';
+import typography from '@tailwindcss/typography';
 import animated from 'tailwindcss-animated';
 import base from './base';
 import { defineConfig } from './define-config';
@@ -17,6 +18,7 @@ export default defineConfig({
     animated,
     aspectRatio,
     containerQueries,
+    typography,
     utilities,
     variants,
   ],
