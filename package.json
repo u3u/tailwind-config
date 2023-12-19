@@ -71,6 +71,7 @@
     "@egoist/tailwindcss-icons": "^1.7.1",
     "@iconify/tools": "^3.0.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
     "deepmerge": "^4.3.1",
     "remeda": "^1.31.0",
     "tailwindcss-animated": "^1.0.1"
@@ -94,7 +95,7 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "simple-git-hooks": "^2.9.0",
-    "tailwindcss": "^3.3.6",
+    "tailwindcss": "^3.3.7",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
     "vitest": "^1.0.4"

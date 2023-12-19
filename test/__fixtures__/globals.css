@@ -3,7 +3,7 @@
 @tailwind utilities; */
 
 [type='file'] {
-  @apply hidden;
+  @apply sr-only;
 }
 
 [type='search'] {
@@ -24,10 +24,6 @@ button {
   @apply duration-300;
 }
 
-body {
-  font-feature-settings: normal;
-}
-
 html {
   @apply scroll-smooth text-black/80 antialiased;
 }
@@ -46,6 +42,11 @@ input:-internal-autofill-selected {
   @apply shadow-[0_0_0px_50px_#fff_inset];
 }
 
-.btn {
+.test-daisy-btn {
   @apply daisy-btn daisy-btn-primary;
+}
+
+.test-container-queries {
+  @apply @container;
+  @apply @md:underline;
 }
