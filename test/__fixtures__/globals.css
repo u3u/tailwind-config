@@ -42,8 +42,12 @@ input:-internal-autofill-selected {
   @apply shadow-[0_0_0px_50px_#fff_inset];
 }
 
-.test-daisy-btn {
-  @apply daisy-btn daisy-btn-primary;
+.test-animate {
+  @apply animate-wiggle;
+}
+
+.test-aspect-ratio {
+  @apply aspect-h-3 aspect-w-4;
 }
 
 .test-container-queries {
@@ -53,4 +57,16 @@ input:-internal-autofill-selected {
 
 .test-typography {
   @apply prose prose-sm md:prose-base;
+}
+
+.test-utilities {
+  @apply bg-image-transparent;
+}
+
+.test-variants {
+  @apply zh:can-hover:scale-105;
+}
+
+.test-daisy-btn {
+  @apply daisy-btn daisy-btn-primary;
 }
