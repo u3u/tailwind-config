@@ -74,7 +74,7 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.10",
     "deepmerge": "^4.3.1",
-    "remeda": "^1.31.0",
+    "remeda": "^1.33.0",
     "tailwindcss-animated": "^1.0.1"
   },
   "devDependencies": {
@@ -88,7 +88,7 @@
     "@vitest/coverage-v8": "^1.1.0",
     "@vitest/ui": "^1.1.0",
     "bumpp": "^9.2.1",
-    "daisyui": "^4.4.21",
+    "daisyui": "^4.4.23",
     "dedent": "^1.5.1",
     "eslint": "^8.56.0",
     "execa": "^8.0.1",
