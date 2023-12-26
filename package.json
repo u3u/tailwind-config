@@ -88,7 +88,7 @@
     "@vitest/coverage-v8": "^1.1.0",
     "@vitest/ui": "^1.1.0",
     "bumpp": "^9.2.1",
-    "daisyui": "^4.4.23",
+    "daisyui": "^4.4.24",
     "dedent": "^1.5.1",
     "eslint": "^8.56.0",
     "execa": "^8.0.1",
@@ -118,7 +118,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@8.13.1",
   "publishConfig": {
     "access": "public"
   },
