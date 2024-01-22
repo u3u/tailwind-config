@@ -74,7 +74,7 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.10",
     "deepmerge": "^4.3.1",
-    "remeda": "^1.37.0",
+    "remeda": "^1.38.0",
     "tailwindcss-animated": "^1.0.1"
   },
   "devDependencies": {
@@ -118,7 +118,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@8.14.1",
+  "packageManager": "pnpm@8.14.2",
   "publishConfig": {
     "access": "public"
   },
