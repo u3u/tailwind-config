@@ -30,8 +30,8 @@ dependencies:
     specifier: ^4.3.1
     version: 4.3.1
   remeda:
-    specifier: ^1.40.1
-    version: 1.40.1
+    specifier: ^1.40.2
+    version: 1.40.2
   tailwindcss-animated:
     specifier: ^1.0.1
     version: 1.0.1(tailwindcss@3.4.1)
@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^9.3.0
     version: 9.3.0
   daisyui:
-    specifier: ^4.6.2
-    version: 4.6.2(postcss@8.4.32)
+    specifier: ^4.6.3
+    version: 4.6.3(postcss@8.4.32)
   dedent:
     specifier: ^1.5.1
     version: 1.5.1
@@ -95,8 +95,8 @@ devDependencies:
     specifier: ^3.4.1
     version: 3.4.1
   tsup:
-    specifier: ^8.0.1
-    version: 8.0.1(postcss@8.4.32)(typescript@5.3.3)
+    specifier: ^8.0.2
+    version: 8.0.2(postcss@8.4.32)(typescript@5.3.3)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -3785,7 +3785,7 @@ packages:
       prettier-plugin-sort-json: 3.1.0(prettier@3.2.5)
       prettier-plugin-sql: 0.18.0(prettier@3.2.5)
       prettier-plugin-tailwindcss: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.2.5)
-      remeda: 1.40.1
+      remeda: 1.40.2
     transitivePeerDependencies:
       - '@prettier/plugin-pug'
       - '@shopify/prettier-plugin-liquid'
@@ -4645,8 +4645,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /daisyui@4.6.2(postcss@8.4.32):
-    resolution: {integrity: sha512-LBIbI76wVVRCQt1Uis2Y2/PRdGfMkNMFsHOjfpav8n7SamwRwPOCiNUClIrnX2jerWW3mLZlzRMCnQfxmGEjow==}
+  /daisyui@4.6.3(postcss@8.4.32):
+    resolution: {integrity: sha512-0Y8G0EwO1aQlvhasDuUAYH35XCK/808dwYdkT4VqQ2kqtErcd/MFaHqK4CGhXwf6PWsWImmIpotFehWkUrlxnw==}
     engines: {node: '>=16.9.0'}
     dependencies:
       css-selector-tokenizer: 0.8.0
@@ -8345,8 +8345,8 @@ packages:
       unified: 11.0.4
     dev: true
 
-  /remeda@1.40.1:
-    resolution: {integrity: sha512-p5HzqKlMK02mvnalm3mavRaUeRljqKoE7r0QgDDzbZ9C0jFowisYLPU9e52gCZOd7Dn6KAWTPbVucJtcPfAIxA==}
+  /remeda@1.40.2:
+    resolution: {integrity: sha512-rD5Qe5OacbxWJovOdTB/ttGnQAUyYjrpwKDkd3Tl8+GUkk6k3AUgpfLMD6PeOV5P+FNaETw3bIHCgtd+4coeNA==}
 
   /require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -9072,8 +9072,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsup@8.0.1(postcss@8.4.32)(typescript@5.3.3):
-    resolution: {integrity: sha512-hvW7gUSG96j53ZTSlT4j/KL0q1Q2l6TqGBFc6/mu/L46IoNWqLLUzLRLP1R8Q7xrJTmkDxxDoojV5uCVs1sVOg==}
+  /tsup@8.0.2(postcss@8.4.32)(typescript@5.3.3):
+    resolution: {integrity: sha512-NY8xtQXdH7hDUAZwcQdY/Vzlw9johQsaqf7iwZ6g1DOUlFYQ5/AtVAjTvihhEyeRlGo4dLRVHtrRaL35M1daqQ==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
