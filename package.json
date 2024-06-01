@@ -78,10 +78,10 @@
     "tailwindcss-animated": "^1.1.0"
   },
   "devDependencies": {
-    "@nextui-org/react": "^2.4.0",
+    "@nextui-org/react": "^2.4.1",
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.12.13",
+    "@types/node": "^20.13.0",
     "@u3u/eslint-config": "^2.15.1",
     "@u3u/prettier-config": "^4.5.1",
     "@u3u/tailwind-config": "link:",
@@ -94,7 +94,7 @@
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^15.2.5",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.0",
     "simple-git-hooks": "^2.11.1",
     "tailwindcss": "^3.4.3",
     "tsup": "^8.0.2",
