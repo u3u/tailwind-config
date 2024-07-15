@@ -67,7 +67,7 @@
     ]
   },
   "dependencies": {
-    "@ant-design/colors": "^7.0.2",
+    "@ant-design/colors": "^7.1.0",
     "@egoist/tailwindcss-icons": "^1.8.1",
     "@iconify/tools": "^3.0.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
@@ -81,7 +81,7 @@
     "@nextui-org/react": "^2.4.2",
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.14.9",
+    "@types/node": "^20.14.10",
     "@u3u/eslint-config": "^2.15.1",
     "@u3u/prettier-config": "^4.5.1",
     "@u3u/tailwind-config": "link:",
@@ -94,11 +94,11 @@
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^15.2.7",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "simple-git-hooks": "^2.11.1",
-    "tailwindcss": "^3.4.4",
+    "tailwindcss": "^3.4.5",
     "tsup": "^8.1.0",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.3",
     "vitest": "^1.6.0"
   },
   "peerDependencies": {

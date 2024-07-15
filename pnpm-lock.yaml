@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@ant-design/colors':
-    specifier: ^7.0.2
-    version: 7.0.2
+    specifier: ^7.1.0
+    version: 7.1.0
   '@egoist/tailwindcss-icons':
     specifier: ^1.8.1
-    version: 1.8.1(tailwindcss@3.4.4)
+    version: 1.8.1(tailwindcss@3.4.5)
   '@iconify/json':
     specifier: '>=2.2.0'
     version: 2.2.118
@@ -19,13 +19,13 @@ dependencies:
     version: 3.0.7
   '@tailwindcss/aspect-ratio':
     specifier: ^0.4.2
-    version: 0.4.2(tailwindcss@3.4.4)
+    version: 0.4.2(tailwindcss@3.4.5)
   '@tailwindcss/container-queries':
     specifier: ^0.1.1
-    version: 0.1.1(tailwindcss@3.4.4)
+    version: 0.1.1(tailwindcss@3.4.5)
   '@tailwindcss/typography':
     specifier: ^0.5.13
-    version: 0.5.13(tailwindcss@3.4.4)
+    version: 0.5.13(tailwindcss@3.4.5)
   deepmerge:
     specifier: ^4.3.1
     version: 4.3.1
@@ -34,12 +34,12 @@ dependencies:
     version: 1.61.0
   tailwindcss-animated:
     specifier: ^1.1.2
-    version: 1.1.2(tailwindcss@3.4.4)
+    version: 1.1.2(tailwindcss@3.4.5)
 
 devDependencies:
   '@nextui-org/react':
     specifier: ^2.4.2
-    version: 2.4.2(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.4)
+    version: 2.4.2(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.5)
   '@total-typescript/ts-reset':
     specifier: ^0.5.1
     version: 0.5.1
@@ -47,14 +47,14 @@ devDependencies:
     specifier: ^20.1.4
     version: 20.1.4
   '@types/node':
-    specifier: ^20.14.9
-    version: 20.14.9
+    specifier: ^20.14.10
+    version: 20.14.10
   '@u3u/eslint-config':
     specifier: ^2.15.1
-    version: 2.15.1(eslint@8.57.0)(typescript@5.5.2)
+    version: 2.15.1(eslint@8.57.0)(typescript@5.5.3)
   '@u3u/prettier-config':
     specifier: ^4.5.1
-    version: 4.5.1(prettier@3.3.2)
+    version: 4.5.1(prettier@3.3.3)
   '@u3u/tailwind-config':
     specifier: 'link:'
     version: 'link:'
@@ -86,23 +86,23 @@ devDependencies:
     specifier: ^15.2.7
     version: 15.2.7
   prettier:
-    specifier: ^3.3.2
-    version: 3.3.2
+    specifier: ^3.3.3
+    version: 3.3.3
   simple-git-hooks:
     specifier: ^2.11.1
     version: 2.11.1
   tailwindcss:
-    specifier: ^3.4.4
-    version: 3.4.4
+    specifier: ^3.4.5
+    version: 3.4.5
   tsup:
     specifier: ^8.1.0
-    version: 8.1.0(postcss@8.4.32)(typescript@5.5.2)
+    version: 8.1.0(postcss@8.4.32)(typescript@5.5.3)
   typescript:
-    specifier: ^5.5.2
-    version: 5.5.2
+    specifier: ^5.5.3
+    version: 5.5.3
   vitest:
     specifier: ^1.6.0
-    version: 1.6.0(@types/node@20.14.9)(@vitest/ui@1.6.0)
+    version: 1.6.0(@types/node@20.14.10)(@vitest/ui@1.6.0)
 
 packages:
 
@@ -123,8 +123,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@ant-design/colors@7.0.2:
-    resolution: {integrity: sha512-7KJkhTiPiLHSu+LmMJnehfJ6242OCxSlR3xHVBecYxnMW8MS/878NXct1GqYARyL59fyeFdKRxXTfvR9SnDgJg==}
+  /@ant-design/colors@7.1.0:
+    resolution: {integrity: sha512-MMoDGWn1y9LdQJQSHiCC20x3uZ3CwQnv9QMz6pCmJOrqdgM9YxsoVVY0wtrdXbmfSgnV0KNk6zi09NAhMR2jvg==}
     dependencies:
       '@ctrl/tinycolor': 3.6.1
     dev: false
@@ -394,13 +394,13 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@egoist/tailwindcss-icons@1.8.1(tailwindcss@3.4.4):
+  /@egoist/tailwindcss-icons@1.8.1(tailwindcss@3.4.5):
     resolution: {integrity: sha512-hqZeASrhT6BOeaBHYDPB0yBH/zgMKqmm7y2Rsq0c4iRnNVv1RWEiXMBMJB38JsDMTHME450FKa/wvdaIhED+Iw==}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       '@iconify/utils': 2.1.24
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -906,7 +906,7 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     dev: true
 
-  /@ianvs/prettier-plugin-sort-imports@4.2.1(prettier@3.3.2):
+  /@ianvs/prettier-plugin-sort-imports@4.2.1(prettier@3.3.3):
     resolution: {integrity: sha512-NKN1LVFWUDGDGr3vt+6Ey3qPeN/163uR1pOPAlkWpgvAqgxQ6kSdUf1F0it8aHUtKRUzEGcK38Wxd07O61d7+Q==}
     peerDependencies:
       '@vue/compiler-sfc': 2.7.x || 3.x
@@ -920,7 +920,7 @@ packages:
       '@babel/parser': 7.24.4
       '@babel/traverse': 7.24.1
       '@babel/types': 7.24.0
-      prettier: 3.3.2
+      prettier: 3.3.3
       semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
@@ -1081,7 +1081,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-accordion': 2.0.6(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/button': 3.9.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -1136,7 +1136,7 @@ packages:
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/spinner': 2.0.30(@nextui-org/theme@2.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
       '@react-aria/combobox': 3.9.1(react-dom@18.2.0)(react@18.2.0)
@@ -1166,7 +1166,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-image': 2.0.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
@@ -1186,7 +1186,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -1203,7 +1203,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/breadcrumbs': 3.5.13(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/utils': 3.24.1(react@18.2.0)
@@ -1227,7 +1227,7 @@ packages:
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/spinner': 2.0.30(@nextui-org/theme@2.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@react-aria/button': 3.9.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -1255,7 +1255,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@react-aria/calendar': 3.5.8(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -1290,7 +1290,7 @@ packages:
       '@nextui-org/ripple': 2.0.30(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@react-aria/button': 3.9.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -1313,7 +1313,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-callback-ref': 2.0.5(react@18.2.0)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
       '@react-aria/checkbox': 3.14.3(react@18.2.0)
@@ -1341,7 +1341,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
       '@react-aria/utils': 3.24.1(react@18.2.0)
@@ -1360,7 +1360,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.6)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -1377,7 +1377,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/datepicker': 3.10.1(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/i18n': 3.11.1(react@18.2.0)
       '@react-aria/utils': 3.24.1(react@18.2.0)
@@ -1406,7 +1406,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/datepicker': 3.10.1(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/i18n': 3.11.1(react@18.2.0)
       '@react-aria/utils': 3.24.1(react@18.2.0)
@@ -1432,7 +1432,7 @@ packages:
       '@nextui-org/react-rsc-utils': 2.0.12
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.6)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-types/shared': 3.22.1(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1453,7 +1453,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/menu': 3.14.1(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/utils': 3.24.1(react@18.2.0)
@@ -1494,7 +1494,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-image': 2.0.5(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1512,7 +1512,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
@@ -1538,7 +1538,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.6)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/utils': 3.24.1(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1556,7 +1556,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-link': 2.0.18(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/link': 3.7.1(react@18.2.0)
@@ -1579,7 +1579,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-is-mobile': 2.0.8(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
@@ -1607,7 +1607,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-menu': 2.0.5(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/use-is-mobile': 2.0.8(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -1638,7 +1638,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@nextui-org/use-aria-modal-overlay': 2.0.10(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/use-disclosure': 2.0.9(react@18.2.0)
@@ -1667,7 +1667,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-toggle-button': 2.0.9(react@18.2.0)
       '@nextui-org/use-scroll-position': 2.0.6(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -1696,7 +1696,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-pagination': 2.0.7(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/i18n': 3.11.1(react@18.2.0)
@@ -1722,7 +1722,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
       '@react-aria/dialog': 3.5.14(react-dom@18.2.0)(react@18.2.0)
@@ -1752,7 +1752,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-is-mounted': 2.0.5(react@18.2.0)
       '@react-aria/i18n': 3.11.1(react@18.2.0)
       '@react-aria/progress': 3.4.13(react@18.2.0)
@@ -1773,7 +1773,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
       '@react-aria/radio': 3.10.4(react@18.2.0)
@@ -1800,7 +1800,7 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@nextui-org/react@2.4.2(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.4):
+  /@nextui-org/react@2.4.2(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.5):
     resolution: {integrity: sha512-g7CqAX/x0DJsIUmD+Z6I4T1699uVmu5kbuY0n1PdA4IDjFSKzgkMCIogcIKu2iUV+LVlvfF1lDhs300OIpouig==}
     peerDependencies:
       framer-motion: '>=10.17.0'
@@ -1847,7 +1847,7 @@ packages:
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/table': 2.0.36(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/tabs': 2.0.32(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/tooltip': 2.0.36(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/user': 2.0.31(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/visually-hidden': 3.8.12(react@18.2.0)
@@ -1871,7 +1871,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       framer-motion: 11.2.6(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1888,7 +1888,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-data-scroll-overflow': 2.1.4(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1912,7 +1912,7 @@ packages:
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/spinner': 2.0.30(@nextui-org/theme@2.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-aria-button': 2.0.9(react@18.2.0)
       '@nextui-org/use-aria-multiselect': 2.2.2(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
@@ -1952,7 +1952,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -1968,7 +1968,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/tooltip': 2.0.36(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/i18n': 3.11.1(react@18.2.0)
@@ -1997,7 +1997,7 @@ packages:
       '@nextui-org/shared-icons': 2.0.8(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/tooltip': 2.0.36(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/use-clipboard': 2.0.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -2017,7 +2017,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.6)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -2032,7 +2032,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system-rsc': 2.1.2(@nextui-org/theme@2.2.6)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -2048,7 +2048,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
@@ -2067,7 +2067,7 @@ packages:
       '@nextui-org/theme': '>=2.1.0'
       react: '>=18'
     dependencies:
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       clsx: 1.2.1
       react: 18.2.0
     dev: true
@@ -2107,7 +2107,7 @@ packages:
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/spacer': 2.0.29(@nextui-org/theme@2.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
       '@react-aria/table': 3.14.1(react-dom@18.2.0)(react@18.2.0)
@@ -2135,7 +2135,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-is-mounted': 2.0.5(react@18.2.0)
       '@nextui-org/use-update-effect': 2.0.5(react@18.2.0)
       '@react-aria/focus': 3.17.1(react@18.2.0)
@@ -2151,7 +2151,7 @@ packages:
       scroll-into-view-if-needed: 3.0.10
     dev: true
 
-  /@nextui-org/theme@2.2.6(tailwindcss@3.4.4):
+  /@nextui-org/theme@2.2.6(tailwindcss@3.4.5):
     resolution: {integrity: sha512-FyDp5edpmjbvPzRx+D2+Km1oZ73wQOzKMSBPomOgP0h9OFnnTHqKlmtbGhWSk2cEyYN9VsaGvqJTw8X35/aChQ==}
     peerDependencies:
       tailwindcss: '>=3.4.0'
@@ -2167,8 +2167,8 @@ packages:
       lodash.mapkeys: 4.6.0
       lodash.omit: 4.5.0
       tailwind-merge: 1.14.0
-      tailwind-variants: 0.1.20(tailwindcss@3.4.4)
-      tailwindcss: 3.4.4
+      tailwind-variants: 0.1.20(tailwindcss@3.4.5)
+      tailwindcss: 3.4.5
     dev: true
 
   /@nextui-org/tooltip@2.0.36(@nextui-org/system@2.2.2)(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0):
@@ -2185,7 +2185,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@nextui-org/use-safe-layout-effect': 2.0.5(react@18.2.0)
       '@react-aria/interactions': 3.21.3(react@18.2.0)
       '@react-aria/overlays': 3.22.1(react-dom@18.2.0)(react@18.2.0)
@@ -2429,7 +2429,7 @@ packages:
       '@nextui-org/react-utils': 2.0.14(react@18.2.0)
       '@nextui-org/shared-utils': 2.0.5
       '@nextui-org/system': 2.2.2(@nextui-org/theme@2.2.6)(framer-motion@11.2.6)(react-dom@18.2.0)(react@18.2.0)
-      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.4)
+      '@nextui-org/theme': 2.2.6(tailwindcss@3.4.5)
       '@react-aria/focus': 3.17.1(react@18.2.0)
       '@react-aria/utils': 3.24.1(react@18.2.0)
       react: 18.2.0
@@ -2515,23 +2515,23 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@prettier/plugin-php@0.22.2(prettier@3.3.2):
+  /@prettier/plugin-php@0.22.2(prettier@3.3.3):
     resolution: {integrity: sha512-md0+7tNbsP0oy+wIP3KZZc6fzx1k1jtWaMjOy/gM8yU9f2BDYEi+iHOc/UNPihYvPI28zFTbjvlhH4QXQjQwNg==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
       linguist-languages: 7.27.0
       php-parser: 3.1.5
-      prettier: 3.3.2
+      prettier: 3.3.3
     dev: true
 
-  /@prettier/plugin-xml@3.4.1(prettier@3.3.2):
+  /@prettier/plugin-xml@3.4.1(prettier@3.3.3):
     resolution: {integrity: sha512-Uf/6/+9ez6z/IvZErgobZ2G9n1ybxF5BhCd7eMcKqfoWuOzzNUxBipNo3QAP8kRC1VD18TIo84no7LhqtyDcTg==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 3.3.2
+      prettier: 3.3.3
     dev: true
 
   /@prisma/prisma-schema-wasm@4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584:
@@ -3670,7 +3670,7 @@ packages:
     dependencies:
       escalade: 3.1.2
       object-hash: 3.0.0
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -3685,23 +3685,23 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.4):
+  /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.5):
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     dev: false
 
-  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.4):
+  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.5):
     resolution: {integrity: sha512-p18dswChx6WnTSaJCSGx6lTmrGzNNvm2FtXmiO6AuA1V4U5REyoqwmT6kgAsIMdjo07QdAfYXHJ4hnMtfHzWgA==}
     peerDependencies:
       tailwindcss: '>=3.2.0'
     dependencies:
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     dev: false
 
-  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.4):
+  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.5):
     resolution: {integrity: sha512-ADGcJ8dX21dVVHIwTRgzrcunY6YY9uSlAHHGVKvkA+vLc5qLwEszvKts40lx7z0qc4clpjclwLeK5rVCV2P/uw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -3710,7 +3710,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     dev: false
 
   /@total-typescript/ts-reset@0.5.1:
@@ -3735,13 +3735,13 @@ packages:
   /@types/cheerio@0.22.32:
     resolution: {integrity: sha512-4RrpCp5ufWTLb6/1RCOjazRhUM6DTD79l763det29n8kLmPB7XeN46cxlUf2GsSF+0g6CbWT5nYl8C/Gs15bdg==}
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
     dev: false
 
   /@types/concat-stream@2.0.3:
     resolution: {integrity: sha512-3qe4oQAPNwVNwK4C9c8u+VJqv9kez+2MR4qJpoPFfXtgxxif1QbFusvXzK0/Wra2VX07smostI2VMmJNSpZjuQ==}
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
     dev: true
 
   /@types/debug@4.1.9:
@@ -3815,8 +3815,8 @@ packages:
     resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
     dev: true
 
-  /@types/node@20.14.9:
-    resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
+  /@types/node@20.14.10:
+    resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
     dependencies:
       undici-types: 5.26.5
 
@@ -3839,7 +3839,7 @@ packages:
   /@types/tar@6.1.6:
     resolution: {integrity: sha512-HQ06kiiDXz9uqtmE9ksQUn1ovcPr1gGV9EgaCWo6FGYKD0onNBCetBzL0kfcS8Kbj1EFxJWY9jL2W4ZvvtGI8Q==}
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       minipass: 4.2.8
     dev: false
 
@@ -3855,11 +3855,11 @@ packages:
     resolution: {integrity: sha512-CHzgNU3qYBnp/O4S3yv2tXPlvMTq0YWSTVg2/JYLqWZGHwwgJGAwd00poay/11asPq8wLFwHzubyInqHIFmmiw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
     dev: false
     optional: true
 
-  /@typescript-eslint/eslint-plugin@7.6.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/eslint-plugin@7.6.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-gKmTNwZnblUdnTIJu3e9kmeRRzV2j1a/LUO27KNNAnIC5zjy1aSvXSRp4rVNlmAoHlQ7HzX42NbKpcSr4jF80A==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
@@ -3871,10 +3871,10 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.10.0
-      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/scope-manager': 7.6.0
-      '@typescript-eslint/type-utils': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
-      '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/type-utils': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
+      '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/visitor-keys': 7.6.0
       debug: 4.3.4
       eslint: 8.57.0
@@ -3882,26 +3882,26 @@ packages:
       ignore: 5.3.1
       natural-compare: 1.4.0
       semver: 7.6.0
-      ts-api-utils: 1.3.0(typescript@5.5.2)
-      typescript: 5.5.2
+      ts-api-utils: 1.3.0(typescript@5.5.3)
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/experimental-utils@5.62.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/experimental-utils@5.62.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-RTXpeB3eMkpoclG3ZHft6vG/Z30azNHuqY6wKPBHlVMZFuEvrtlEDe8gMqDb+SO+9hjC/pLekeSCryf9vMZlCw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@typescript-eslint/utils': 5.62.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/utils': 5.62.0(eslint@8.57.0)(typescript@5.5.3)
       eslint: 8.57.0
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /@typescript-eslint/parser@7.6.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/parser@7.6.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-usPMPHcwX3ZoPWnBnhhorc14NJw9J4HpSXQX4urF2TPKG0au0XhJoZyX62fmvdHONUkmyUe74Hzm1//XA+BoYg==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
@@ -3913,11 +3913,11 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': 7.6.0
       '@typescript-eslint/types': 7.6.0
-      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.5.3)
       '@typescript-eslint/visitor-keys': 7.6.0
       debug: 4.3.4
       eslint: 8.57.0
-      typescript: 5.5.2
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3954,7 +3954,7 @@ packages:
       '@typescript-eslint/visitor-keys': 7.6.0
     dev: true
 
-  /@typescript-eslint/type-utils@7.6.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/type-utils@7.6.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-NxAfqAPNLG6LTmy7uZgpK8KcuiS2NZD/HlThPXQRGwz6u7MDBWRVliEEl1Gj6U7++kVJTpehkhZzCJLMK66Scw==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
@@ -3964,12 +3964,12 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.5.2)
-      '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.5.3)
+      '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       debug: 4.3.4
       eslint: 8.57.0
-      ts-api-utils: 1.3.0(typescript@5.5.2)
-      typescript: 5.5.2
+      ts-api-utils: 1.3.0(typescript@5.5.3)
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3994,7 +3994,7 @@ packages:
     engines: {node: ^18.18.0 || >=20.0.0}
     dev: true
 
-  /@typescript-eslint/typescript-estree@5.62.0(typescript@5.5.2):
+  /@typescript-eslint/typescript-estree@5.62.0(typescript@5.5.3):
     resolution: {integrity: sha512-CmcQ6uY7b9y694lKdRB8FEel7JbU/40iSAPomu++SjLMntB+2Leay2LO6i8VnJk58MtE9/nQSFIH6jpyRWyYzA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4009,13 +4009,13 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.6.0
-      tsutils: 3.21.0(typescript@5.5.2)
-      typescript: 5.5.2
+      tsutils: 3.21.0(typescript@5.5.3)
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@6.15.0(typescript@5.5.2):
+  /@typescript-eslint/typescript-estree@6.15.0(typescript@5.5.3):
     resolution: {integrity: sha512-7mVZJN7Hd15OmGuWrp2T9UvqR2Ecg+1j/Bp1jXUEY2GZKV6FXlOIoqVDmLpBiEiq3katvj/2n2mR0SDwtloCew==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -4030,13 +4030,13 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.6.0
-      ts-api-utils: 1.0.3(typescript@5.5.2)
-      typescript: 5.5.2
+      ts-api-utils: 1.0.3(typescript@5.5.3)
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@6.21.0(typescript@5.5.2):
+  /@typescript-eslint/typescript-estree@6.21.0(typescript@5.5.3):
     resolution: {integrity: sha512-6npJTkZcO+y2/kr+z0hc4HwNfrrP4kNYh57ek7yCNlrBjWQ1Y0OS7jiZTkgumrvkX5HkEKXFZkkdFNkaW2wmUQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -4052,13 +4052,13 @@ packages:
       is-glob: 4.0.3
       minimatch: 9.0.3
       semver: 7.6.0
-      ts-api-utils: 1.0.3(typescript@5.5.2)
-      typescript: 5.5.2
+      ts-api-utils: 1.0.3(typescript@5.5.3)
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@7.6.0(typescript@5.5.2):
+  /@typescript-eslint/typescript-estree@7.6.0(typescript@5.5.3):
     resolution: {integrity: sha512-+7Y/GP9VuYibecrCQWSKgl3GvUM5cILRttpWtnAu8GNL9j11e4tbuGZmZjJ8ejnKYyBRb2ddGQ3rEFCq3QjMJw==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
@@ -4074,13 +4074,13 @@ packages:
       is-glob: 4.0.3
       minimatch: 9.0.4
       semver: 7.6.0
-      ts-api-utils: 1.3.0(typescript@5.5.2)
-      typescript: 5.5.2
+      ts-api-utils: 1.3.0(typescript@5.5.3)
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils@5.62.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/utils@5.62.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-n8oxjeb5aIbPFEtmQxQYOLI0i9n5ySBEY/ZEHHZqKQSFnxio1rv6dthascc9dLuwrL0RC5mPCxB7vnAVGAYWAQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4091,7 +4091,7 @@ packages:
       '@types/semver': 7.5.3
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
-      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.3)
       eslint: 8.57.0
       eslint-scope: 5.1.1
       semver: 7.6.0
@@ -4100,7 +4100,7 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/utils@6.15.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/utils@6.15.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-eF82p0Wrrlt8fQSRL0bGXzK5nWPRV2dYQZdajcfzOD9+cQz9O7ugifrJxclB+xVOvWvagXfqS4Es7vpLP4augw==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -4111,7 +4111,7 @@ packages:
       '@types/semver': 7.5.3
       '@typescript-eslint/scope-manager': 6.15.0
       '@typescript-eslint/types': 6.15.0
-      '@typescript-eslint/typescript-estree': 6.15.0(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 6.15.0(typescript@5.5.3)
       eslint: 8.57.0
       semver: 7.6.0
     transitivePeerDependencies:
@@ -4119,7 +4119,7 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/utils@6.21.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/utils@6.21.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-NfWVaC8HP9T8cbKQxHcsJBY5YE1O33+jpMwN45qzWWaPDZgLIbo12toGMWnmhvCpd3sIxkpDw3Wv1B3dYrbDQQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -4130,7 +4130,7 @@ packages:
       '@types/semver': 7.5.3
       '@typescript-eslint/scope-manager': 6.21.0
       '@typescript-eslint/types': 6.21.0
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.5.3)
       eslint: 8.57.0
       semver: 7.6.0
     transitivePeerDependencies:
@@ -4138,7 +4138,7 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/utils@7.6.0(eslint@8.57.0)(typescript@5.5.2):
+  /@typescript-eslint/utils@7.6.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-x54gaSsRRI+Nwz59TXpCsr6harB98qjXYzsRxGqvA5Ue3kQH+FxS7FYU81g/omn22ML2pZJkisy6Q+ElK8pBCA==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
@@ -4149,7 +4149,7 @@ packages:
       '@types/semver': 7.5.8
       '@typescript-eslint/scope-manager': 7.6.0
       '@typescript-eslint/types': 7.6.0
-      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.5.3)
       eslint: 8.57.0
       semver: 7.6.0
     transitivePeerDependencies:
@@ -4189,25 +4189,25 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@u3u/eslint-config@2.15.1(eslint@8.57.0)(typescript@5.5.2):
+  /@u3u/eslint-config@2.15.1(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-UjW9eeFJ6TL6gCdKzY6W5b43bd0qMweYL6VK5wYRC4Xrb4dSPORL5MtDnalSouVR1ml2do97uuVpGesCp2FCjw==}
     peerDependencies:
       eslint: '>=8.0.0'
     dependencies:
       '@types/eslint': 8.56.7
-      '@typescript-eslint/eslint-plugin': 7.6.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.2)
-      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/eslint-plugin': 7.6.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.3)
+      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       eslint: 8.57.0
       eslint-config-prettier: 9.1.0(eslint@8.57.0)
-      eslint-plugin-arrow-return-style: 1.3.0(eslint@8.57.0)(typescript@5.5.2)
-      eslint-plugin-astro: 0.34.0(eslint@8.57.0)(typescript@5.5.2)
+      eslint-plugin-arrow-return-style: 1.3.0(eslint@8.57.0)(typescript@5.5.3)
+      eslint-plugin-astro: 0.34.0(eslint@8.57.0)(typescript@5.5.3)
       eslint-plugin-ext: 0.1.0
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)
       eslint-plugin-json-es: 1.5.7(eslint@8.57.0)
       eslint-plugin-markdown: 3.0.1(eslint@8.57.0)
       eslint-plugin-mdx: 3.1.5(eslint@8.57.0)
       eslint-plugin-only-warn: 1.1.0
-      eslint-plugin-perfectionist: 2.8.0(eslint@8.57.0)(typescript@5.5.2)(vue-eslint-parser@9.4.2)
+      eslint-plugin-perfectionist: 2.8.0(eslint@8.57.0)(typescript@5.5.3)(vue-eslint-parser@9.4.2)
       eslint-plugin-prefer-arrow-functions: 3.3.2(eslint@8.57.0)
       eslint-plugin-react: 7.34.1(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
@@ -4216,7 +4216,7 @@ packages:
       eslint-plugin-sort-destructure-keys: 1.5.0(eslint@8.57.0)
       eslint-plugin-sort-exports: 0.9.1(eslint@8.57.0)
       eslint-plugin-sort-keys: 2.3.5
-      eslint-plugin-typescript-sort-keys: 3.2.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.2)
+      eslint-plugin-typescript-sort-keys: 3.2.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.3)
       eslint-plugin-unicorn: 52.0.0(eslint@8.57.0)
       eslint-plugin-vue: 9.24.1(eslint@8.57.0)
       local-pkg: 0.4.3
@@ -4231,30 +4231,30 @@ packages:
       - typescript
     dev: true
 
-  /@u3u/prettier-config@4.5.1(prettier@3.3.2):
+  /@u3u/prettier-config@4.5.1(prettier@3.3.3):
     resolution: {integrity: sha512-vIJHb9SDucVWSX3jcYbxmT7sHlSZXc4IQZXoFDNbRahVMyqJ4gpYmi9wovKSHrYShjGX1OjM4mAyehWxZgYN4A==}
     peerDependencies:
       prettier: '>=3.0.0'
     dependencies:
-      '@ianvs/prettier-plugin-sort-imports': 4.2.1(prettier@3.3.2)
-      '@prettier/plugin-php': 0.22.2(prettier@3.3.2)
-      '@prettier/plugin-xml': 3.4.1(prettier@3.3.2)
+      '@ianvs/prettier-plugin-sort-imports': 4.2.1(prettier@3.3.3)
+      '@prettier/plugin-php': 0.22.2(prettier@3.3.3)
+      '@prettier/plugin-xml': 3.4.1(prettier@3.3.3)
       '@shufo/prettier-plugin-blade': 1.14.1
       deepmerge: 4.3.1
       local-pkg: 0.4.3
-      prettier: 3.3.2
+      prettier: 3.3.3
       prettier-plugin-astro: 0.13.0
-      prettier-plugin-classnames: 0.6.5(prettier-plugin-astro@0.13.0)(prettier@3.3.2)
+      prettier-plugin-classnames: 0.6.5(prettier-plugin-astro@0.13.0)(prettier@3.3.3)
       prettier-plugin-ini: 1.1.0
-      prettier-plugin-jsdoc: 1.3.0(prettier@3.3.2)
-      prettier-plugin-merge: 0.6.0(prettier@3.3.2)
+      prettier-plugin-jsdoc: 1.3.0(prettier@3.3.3)
+      prettier-plugin-merge: 0.6.0(prettier@3.3.3)
       prettier-plugin-nginx: 1.0.3
-      prettier-plugin-packagejson: 2.4.14(prettier@3.3.2)
-      prettier-plugin-prisma: 5.0.0(prettier@3.3.2)
-      prettier-plugin-sh: 0.14.0(prettier@3.3.2)
-      prettier-plugin-sort-json: 4.0.0(prettier@3.3.2)
-      prettier-plugin-sql: 0.18.0(prettier@3.3.2)
-      prettier-plugin-tailwindcss: 0.5.13(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.3.2)
+      prettier-plugin-packagejson: 2.4.14(prettier@3.3.3)
+      prettier-plugin-prisma: 5.0.0(prettier@3.3.3)
+      prettier-plugin-sh: 0.14.0(prettier@3.3.3)
+      prettier-plugin-sort-json: 4.0.0(prettier@3.3.3)
+      prettier-plugin-sql: 0.18.0(prettier@3.3.3)
+      prettier-plugin-tailwindcss: 0.5.13(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.3.3)
       remeda: 1.61.0
     transitivePeerDependencies:
       - '@prettier/plugin-pug'
@@ -4296,7 +4296,7 @@ packages:
       std-env: 3.6.0
       strip-literal: 2.0.0
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.14.9)(@vitest/ui@1.6.0)
+      vitest: 1.6.0(@types/node@20.14.10)(@vitest/ui@1.6.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4343,7 +4343,7 @@ packages:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.6.0(@types/node@20.14.9)(@vitest/ui@1.6.0)
+      vitest: 1.6.0(@types/node@20.14.10)(@vitest/ui@1.6.0)
     dev: true
 
   /@vitest/utils@1.6.0:
@@ -4598,14 +4598,14 @@ packages:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
     dev: true
 
-  /astro-eslint-parser@0.17.0(typescript@5.5.2):
+  /astro-eslint-parser@0.17.0(typescript@5.5.3):
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 2.2.0
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
-      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.2)
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.3)
       astrojs-compiler-sync: 0.3.3(@astrojs/compiler@2.2.0)
       debug: 4.3.4
       entities: 4.5.0
@@ -4666,7 +4666,7 @@ packages:
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
-      '@prettier/plugin-php': 0.22.2(prettier@3.3.2)
+      '@prettier/plugin-php': 0.22.2(prettier@3.3.3)
       '@shufo/tailwindcss-class-sorter': 3.0.1
       aigle: 1.14.1
       ajv: 8.12.0
@@ -4680,9 +4680,9 @@ packages:
       js-beautify: 1.14.9
       lodash: 4.17.21
       php-parser: 3.1.5
-      prettier: 3.3.2
+      prettier: 3.3.3
       string-replace-async: 2.0.0
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
       vscode-oniguruma: 1.7.0
       vscode-textmate: 7.0.4
       xregexp: 5.1.1
@@ -5813,7 +5813,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       debug: 3.2.7
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
@@ -5821,12 +5821,12 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-arrow-return-style@1.3.0(eslint@8.57.0)(typescript@5.5.2):
+  /eslint-plugin-arrow-return-style@1.3.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-lz1+SihL5FYBWcil+zspymSnjcArZyI0B9BSH5hZLhuu8UAaEEkJfMRmqIpF09n1braP7nLhN9mvcmnqRw/xxA==}
     peerDependencies:
       eslint: '>=8.0.0'
     dependencies:
-      '@typescript-eslint/utils': 6.21.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/utils': 6.21.0(eslint@8.57.0)(typescript@5.5.3)
       eslint: 8.57.0
       scule: 1.3.0
     transitivePeerDependencies:
@@ -5834,7 +5834,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-astro@0.34.0(eslint@8.57.0)(typescript@5.5.2):
+  /eslint-plugin-astro@0.34.0(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-nzw2H4g7HPXPLsWVpGUxuJ/ViVPLI8lM/AaUCJ51qTLTWtaMhvlvoe2d7yIPMFc+7xeCzQdo1POK8eR7NFsdKQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -5843,7 +5843,7 @@ packages:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
       '@jridgewell/sourcemap-codec': 1.4.15
       '@typescript-eslint/types': 5.62.0
-      astro-eslint-parser: 0.17.0(typescript@5.5.2)
+      astro-eslint-parser: 0.17.0(typescript@5.5.3)
       eslint: 8.57.0
       eslint-compat-utils: 0.5.0(eslint@8.57.0)
       globals: 13.23.0
@@ -5868,7 +5868,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       array-includes: 3.1.7
       array.prototype.findlastindex: 1.2.3
       array.prototype.flat: 1.3.2
@@ -5939,7 +5939,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /eslint-plugin-perfectionist@2.8.0(eslint@8.57.0)(typescript@5.5.2)(vue-eslint-parser@9.4.2):
+  /eslint-plugin-perfectionist@2.8.0(eslint@8.57.0)(typescript@5.5.3)(vue-eslint-parser@9.4.2):
     resolution: {integrity: sha512-XBjQ4ctU1rOzQ4bFJoUowe8XdsIIz42JqNrouFlae1TO78HjoyYBaRP8+gAHDDQCSdHY10pbChyzlJeBA6D51w==}
     peerDependencies:
       astro-eslint-parser: ^0.16.0
@@ -5957,7 +5957,7 @@ packages:
       vue-eslint-parser:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 6.15.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/utils': 6.15.0(eslint@8.57.0)(typescript@5.5.3)
       eslint: 8.57.0
       minimatch: 9.0.4
       natural-compare-lite: 1.4.0
@@ -6061,7 +6061,7 @@ packages:
       natural-compare: 1.4.0
     dev: true
 
-  /eslint-plugin-typescript-sort-keys@3.2.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.2):
+  /eslint-plugin-typescript-sort-keys@3.2.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.5.3):
     resolution: {integrity: sha512-GutszvriaVtwmn7pQjuj9/9o0iXhD7XZs0/424+zsozdRr/fdg5e8206t478Vnqnqi1GjuxcAolj1kf74KnhPA==}
     engines: {node: '>= 16'}
     peerDependencies:
@@ -6069,12 +6069,12 @@ packages:
       eslint: ^7 || ^8
       typescript: ^3 || ^4 || ^5
     dependencies:
-      '@typescript-eslint/experimental-utils': 5.62.0(eslint@8.57.0)(typescript@5.5.2)
-      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.2)
+      '@typescript-eslint/experimental-utils': 5.62.0(eslint@8.57.0)(typescript@5.5.3)
+      '@typescript-eslint/parser': 7.6.0(eslint@8.57.0)(typescript@5.5.3)
       eslint: 8.57.0
       json-schema: 0.4.0
       natural-compare-lite: 1.4.0
-      typescript: 5.5.2
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8679,11 +8679,11 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.2
-      prettier: 3.3.2
+      prettier: 3.3.3
       sass-formatter: 0.7.8
     dev: true
 
-  /prettier-plugin-classnames@0.6.5(prettier-plugin-astro@0.13.0)(prettier@3.3.2):
+  /prettier-plugin-classnames@0.6.5(prettier-plugin-astro@0.13.0)(prettier@3.3.3):
     resolution: {integrity: sha512-33RQaTSxz4KzITJSJCOTTrVwbmuGjz4wIpJbDFalHQ8EBK4p0/4rgkvHd4M1MSTG/5gsfZUBksQRHBLYkuLv0Q==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8693,17 +8693,17 @@ packages:
       prettier-plugin-astro:
         optional: true
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
       prettier-plugin-astro: 0.13.0
     dev: true
 
   /prettier-plugin-ini@1.1.0:
     resolution: {integrity: sha512-xlWM//GrLYU5CX3Qdn5isOlxz1LHnTi4fdSHZX/UYV/C5ipbcFfdCglENoOPGp4N5EvtA5Q1FuVhg95K58TMRg==}
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
     dev: true
 
-  /prettier-plugin-jsdoc@1.3.0(prettier@3.3.2):
+  /prettier-plugin-jsdoc@1.3.0(prettier@3.3.3):
     resolution: {integrity: sha512-cQm8xIa0fN9ieJFMXACQd6JPycl+8ouOijAqUqu44EF/s4fXL3Wi9sKXuEaodsEWgCN42Xby/bNhqgM1iWx4uw==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
@@ -8712,26 +8712,26 @@ packages:
       binary-searching: 2.0.5
       comment-parser: 1.4.0
       mdast-util-from-markdown: 2.0.0
-      prettier: 3.3.2
+      prettier: 3.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /prettier-plugin-merge@0.6.0(prettier@3.3.2):
+  /prettier-plugin-merge@0.6.0(prettier@3.3.3):
     resolution: {integrity: sha512-zpWREE7u+ta9HgjtxqZSG/nTPy8QqiwGz2fY+GsBKS3LXLIAZeB45H8uq24LuQh83Seo/Stj37GjjyTHk0GMiw==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: ^2 || ^3
     dependencies:
       diff: 5.1.0
-      prettier: 3.3.2
+      prettier: 3.3.3
     dev: true
 
   /prettier-plugin-nginx@1.0.3:
     resolution: {integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==}
     dev: true
 
-  /prettier-plugin-packagejson@2.4.14(prettier@3.3.2):
+  /prettier-plugin-packagejson@2.4.14(prettier@3.3.3):
     resolution: {integrity: sha512-sli+gV5tW7uxvzDZQscaBtSfbyAW2ToL6n/HGt51PipwX9vI7M54vefG0mKSfklVkT29TNGO6Mo6g8c6Z79gmw==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -8739,42 +8739,42 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
       sort-package-json: 2.10.0
       synckit: 0.9.0
     dev: true
 
-  /prettier-plugin-prisma@5.0.0(prettier@3.3.2):
+  /prettier-plugin-prisma@5.0.0(prettier@3.3.3):
     resolution: {integrity: sha512-jTJV04D9+yF7ziOOMs7CJe4ijgAH7DEGjt0SAWAToGNRy1H6BEhvcKA2UQH6gC6KVW5zeeOSAvsoiDDTt9oKXg==}
     engines: {node: '>=14', npm: '>=8'}
     peerDependencies:
       prettier: '>=2 || >=3'
     dependencies:
       '@prisma/prisma-schema-wasm': 4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584
-      prettier: 3.3.2
+      prettier: 3.3.3
     dev: true
 
-  /prettier-plugin-sh@0.14.0(prettier@3.3.2):
+  /prettier-plugin-sh@0.14.0(prettier@3.3.3):
     resolution: {integrity: sha512-hfXulj5+zEl/ulrO5kMuuTPKmXvOg0bnLHY1hKFNN/N+/903iZbNp8NyZBTsgI8dtkSgFfAEIQq0IQTyP1ZVFQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.3
     dependencies:
       mvdan-sh: 0.10.1
-      prettier: 3.3.2
+      prettier: 3.3.3
       sh-syntax: 0.4.1
     dev: true
 
-  /prettier-plugin-sort-json@4.0.0(prettier@3.3.2):
+  /prettier-plugin-sort-json@4.0.0(prettier@3.3.3):
     resolution: {integrity: sha512-zV5g+bWFD2zAqyQ8gCkwUTC49o9FxslaUdirwivt5GZHcf57hCocavykuyYqbExoEsuBOg8IU36OY7zmVEMOWA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
     dev: true
 
-  /prettier-plugin-sql@0.18.0(prettier@3.3.2):
+  /prettier-plugin-sql@0.18.0(prettier@3.3.3):
     resolution: {integrity: sha512-E7WXooLNtWyv79sYYHtQbfvXZ5B/OOR0ySBsB2evfrfvD4wJos1OKLBvVLC/a7+7YpG30bSUTgc2DEwz8ctPmQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -8782,12 +8782,12 @@ packages:
     dependencies:
       jsox: 1.2.118
       node-sql-parser: 4.17.0
-      prettier: 3.3.2
+      prettier: 3.3.3
       sql-formatter: 15.0.2
       tslib: 2.6.2
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.13(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.3.2):
+  /prettier-plugin-tailwindcss@0.5.13(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.3.3):
     resolution: {integrity: sha512-2tPWHCFNC+WRjAC4SIWQNSOdcL1NNkydXim8w7TDqlZi+/ulZYz2OouAI6qMtkggnPt7lGamboj6LcTMwcCvoQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -8839,10 +8839,10 @@ packages:
       prettier-plugin-svelte:
         optional: true
     dependencies:
-      '@ianvs/prettier-plugin-sort-imports': 4.2.1(prettier@3.3.2)
-      prettier: 3.3.2
+      '@ianvs/prettier-plugin-sort-imports': 4.2.1(prettier@3.3.3)
+      prettier: 3.3.3
       prettier-plugin-astro: 0.13.0
-      prettier-plugin-jsdoc: 1.3.0(prettier@3.3.2)
+      prettier-plugin-jsdoc: 1.3.0(prettier@3.3.3)
     dev: true
 
   /prettier@3.2.5:
@@ -8851,8 +8851,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+  /prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -9789,26 +9789,26 @@ packages:
     resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
     dev: true
 
-  /tailwind-variants@0.1.20(tailwindcss@3.4.4):
+  /tailwind-variants@0.1.20(tailwindcss@3.4.5):
     resolution: {integrity: sha512-AMh7x313t/V+eTySKB0Dal08RHY7ggYK0MSn/ad8wKWOrDUIzyiWNayRUm2PIJ4VRkvRnfNuyRuKbLV3EN+ewQ==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 1.14.0
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     dev: true
 
-  /tailwindcss-animated@1.1.2(tailwindcss@3.4.4):
+  /tailwindcss-animated@1.1.2(tailwindcss@3.4.5):
     resolution: {integrity: sha512-SI4owS5ojserhgEYIZA/uFVdNjU2GMB2P3sjtjmFA52VxoUi+Hht6oR5+RdT+CxrX9cNNYEa+vbTWHvN9zbj3w==}
     peerDependencies:
       tailwindcss: '>=3.1.0'
     dependencies:
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     dev: false
 
-  /tailwindcss@3.4.4:
-    resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
+  /tailwindcss@3.4.5:
+    resolution: {integrity: sha512-DlTxttYcogpDfx3tf/8jfnma1nfAYi2cBUYV2YNoPPecwmO3YGiFlOX9D8tGAu+EDF38ryBzvrDKU/BLMsUwbw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -9922,22 +9922,22 @@ packages:
     resolution: {integrity: sha512-AqTiAOLcj85xS7vQ8QkAV41hPDIJ71XJB4RCUrzo/1GM2CQwhkJGaf9Hgr7BOugMRpgGUrqRg/DrBDl4H40+8g==}
     dev: true
 
-  /ts-api-utils@1.0.3(typescript@5.5.2):
+  /ts-api-utils@1.0.3(typescript@5.5.3):
     resolution: {integrity: sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==}
     engines: {node: '>=16.13.0'}
     peerDependencies:
       typescript: '>=4.2.0'
     dependencies:
-      typescript: 5.5.2
+      typescript: 5.5.3
     dev: true
 
-  /ts-api-utils@1.3.0(typescript@5.5.2):
+  /ts-api-utils@1.3.0(typescript@5.5.3):
     resolution: {integrity: sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==}
     engines: {node: '>=16'}
     peerDependencies:
       typescript: '>=4.2.0'
     dependencies:
-      typescript: 5.5.2
+      typescript: 5.5.3
     dev: true
 
   /ts-interface-checker@0.1.13:
@@ -9960,7 +9960,7 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsup@8.1.0(postcss@8.4.32)(typescript@5.5.2):
+  /tsup@8.1.0(postcss@8.4.32)(typescript@5.5.3):
     resolution: {integrity: sha512-UFdfCAXukax+U6KzeTNO2kAARHcWxmKsnvSPXUcfA1D+kU05XDccCrkffCQpFaWDsZfV0jMyTsxU39VfCp6EOg==}
     engines: {node: '>=18'}
     hasBin: true
@@ -9994,20 +9994,20 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.34.0
       tree-kill: 1.2.2
-      typescript: 5.5.2
+      typescript: 5.5.3
     transitivePeerDependencies:
       - supports-color
       - ts-node
     dev: true
 
-  /tsutils@3.21.0(typescript@5.5.2):
+  /tsutils@3.21.0(typescript@5.5.3):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: 5.5.2
+      typescript: 5.5.3
     dev: true
 
   /type-check@0.4.0:
@@ -10133,8 +10133,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typescript@5.5.2:
-    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
+  /typescript@5.5.3:
+    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -10160,7 +10160,7 @@ packages:
       '@types/concat-stream': 2.0.3
       '@types/debug': 4.1.9
       '@types/is-empty': 1.2.3
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       '@types/unist': 3.0.0
       '@ungap/structured-clone': 1.2.0
       concat-stream: 2.0.0
@@ -10400,7 +10400,7 @@ packages:
       vfile-message: 4.0.2
     dev: true
 
-  /vite-node@1.6.0(@types/node@20.14.9):
+  /vite-node@1.6.0(@types/node@20.14.10):
     resolution: {integrity: sha512-de6HJgzC+TFzOu0NTC4RAIsyf/DY/ibWDYQUcuEA84EMHhcefTUGkjFHKKEJhQN4A+6I0u++kr3l36ZF2d7XRw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10409,7 +10409,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.0.7(@types/node@20.14.9)
+      vite: 5.0.7(@types/node@20.14.10)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -10421,7 +10421,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.0.7(@types/node@20.14.9):
+  /vite@5.0.7(@types/node@20.14.10):
     resolution: {integrity: sha512-B4T4rJCDPihrQo2B+h1MbeGL/k/GMAHzhQ8S0LjQ142s6/+l3hHTT095ORvsshj4QCkoWu3Xtmob5mazvakaOw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10449,7 +10449,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       esbuild: 0.19.5
       postcss: 8.4.32
       rollup: 4.5.0
@@ -10457,7 +10457,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.6.0(@types/node@20.14.9)(@vitest/ui@1.6.0):
+  /vitest@1.6.0(@types/node@20.14.10)(@vitest/ui@1.6.0):
     resolution: {integrity: sha512-H5r/dN06swuFnzNFhq/dnz37bPXnq8xB2xB5JOVk8K09rUtoeNN+LHWkoQ0A/i3hvbUKKcCei9KpbxqHMLhLLA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10482,7 +10482,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
       '@vitest/snapshot': 1.6.0
@@ -10501,8 +10501,8 @@ packages:
       strip-literal: 2.0.0
       tinybench: 2.5.1
       tinypool: 0.8.3
-      vite: 5.0.7(@types/node@20.14.9)
-      vite-node: 1.6.0(@types/node@20.14.9)
+      vite: 5.0.7(@types/node@20.14.10)
+      vite-node: 1.6.0(@types/node@20.14.10)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
