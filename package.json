@@ -79,7 +79,7 @@
   },
   "devDependencies": {
     "@nextui-org/react": "^2.4.6",
-    "@total-typescript/ts-reset": "^0.5.1",
+    "@total-typescript/ts-reset": "^0.6.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.16.1",
     "@u3u/eslint-config": "^2.15.2",
@@ -87,7 +87,7 @@
     "@u3u/tailwind-config": "link:",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
-    "bumpp": "^9.5.1",
+    "bumpp": "^9.5.2",
     "daisyui": "^4.12.10",
     "dedent": "^1.5.3",
     "eslint": "^8.57.0",
