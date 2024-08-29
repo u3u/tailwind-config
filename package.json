@@ -72,7 +72,7 @@
     "@iconify/tools": "^3.0.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/typography": "^0.5.14",
+    "@tailwindcss/typography": "^0.5.15",
     "deepmerge": "^4.3.1",
     "remeda": "^1.61.0",
     "tailwindcss-animated": "^1.1.2"
@@ -81,7 +81,7 @@
     "@nextui-org/react": "^2.4.6",
     "@total-typescript/ts-reset": "^0.6.0",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.16.1",
+    "@types/node": "^20.16.2",
     "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "^4.5.1",
     "@u3u/tailwind-config": "link:",
