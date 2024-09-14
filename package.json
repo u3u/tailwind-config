@@ -78,7 +78,7 @@
     "tailwindcss-animated": "^1.1.2"
   },
   "devDependencies": {
-    "@nextui-org/react": "^2.4.6",
+    "@nextui-org/react": "^2.4.7",
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.16.5",
