@@ -88,7 +88,7 @@
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
     "bumpp": "^9.6.1",
-    "daisyui": "^4.12.11",
+    "daisyui": "^4.12.12",
     "dedent": "^1.5.3",
     "eslint": "^8.57.1",
     "execa": "^8.0.1",
