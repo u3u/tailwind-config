@@ -78,7 +78,7 @@
     "tailwindcss-animated": "^1.1.2"
   },
   "devDependencies": {
-    "@nextui-org/react": "^2.6.8",
+    "@nextui-org/react": "^2.6.10",
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.17.10",
@@ -87,7 +87,7 @@
     "@u3u/tailwind-config": "link:",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
-    "bumpp": "^9.9.1",
+    "bumpp": "^9.9.2",
     "daisyui": "^4.12.22",
     "dedent": "^1.5.3",
     "eslint": "^8.57.1",
