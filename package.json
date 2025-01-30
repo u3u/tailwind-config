@@ -75,7 +75,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "deepmerge": "^4.3.1",
     "remeda": "^1.61.0",
-    "tailwindcss-animated": "^1.1.2"
+    "tailwindcss-animated": "^2.0.0"
   },
   "devDependencies": {
     "@nextui-org/react": "^2.6.11",
