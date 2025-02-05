@@ -91,7 +91,7 @@
     "daisyui": "^4.12.23",
     "dedent": "^1.5.3",
     "eslint": "^8.57.1",
-    "execa": "^8.0.1",
+    "execa": "^9.5.2",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^15.4.1",
     "prettier": "^3.4.2",
