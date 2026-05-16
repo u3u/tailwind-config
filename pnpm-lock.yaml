@@ -33,8 +33,8 @@ dependencies:
     specifier: ^1.61.0
     version: 1.61.0
   tailwindcss-animated:
-    specifier: ^1.1.2
-    version: 1.1.2(tailwindcss@3.4.17)
+    specifier: ^2.1.0
+    version: 2.1.0(tailwindcss@3.4.17)
 
 devDependencies:
   '@nextui-org/react':
@@ -9929,10 +9929,10 @@ packages:
       tailwindcss: 3.4.17
     dev: true
 
-  /tailwindcss-animated@1.1.2(tailwindcss@3.4.17):
-    resolution: {integrity: sha512-SI4owS5ojserhgEYIZA/uFVdNjU2GMB2P3sjtjmFA52VxoUi+Hht6oR5+RdT+CxrX9cNNYEa+vbTWHvN9zbj3w==}
+  /tailwindcss-animated@2.1.0(tailwindcss@3.4.17):
+    resolution: {integrity: sha512-KUTVvcH2YQz0W8CT6QT3zz3UdqPmvLAja/KIDqY2lmvmurKPy3g+amIWenWjEaqoo3mjycuvGhYWFuegnSsCAQ==}
     peerDependencies:
-      tailwindcss: '>=3.1.0'
+      tailwindcss: '>=3.1.0 || >=4.0.0'
     dependencies:
       tailwindcss: 3.4.17
     dev: false
